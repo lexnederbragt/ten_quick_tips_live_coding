@@ -69,14 +69,21 @@ for every command you type,
 every word of code you write,
 and every menu item or website button you click.
 Then, point to the command and its output on the screen
-and optionally go through it a second time.
-This not only slows you down,
-it allows learners who are following along to copy what you do,
-or to catch up, even when they are looking at their screen while doing it.
+and  go through it a second time.
+This allows learners to catch up and check their understanding:
+if they are watching you type and trying to type the same code in themselves,
+they don't have time to think about what they're doing.
+As you go through it a second time, they can check their understanding
+and correct any small typos they may have made.
+This is particularly important for learners
+who may not be fluent in the language of instruction,
+or who may have hearing, vision, or mobility impairments.
+
 If the output of your command or code makes what you just typed disappear from view,
 scroll back up so learners can see it again.
 
-Do not copy-paste code from your lesson material and/or ask your learners to do the same. It will make you go fast with the risk of you not explaining the thought process behind the code.
+Do not copy-paste code from your lesson material and/or ask your learners to do the same.
+It's all too easy to go too fast without explaining the thought process behind the code.
 
 ## Tip 2. Mirror your learner's environment.
 
@@ -88,6 +95,8 @@ Your learners usually won't have all of this,
 so try to create an environment that mirrors what your learners have.
 
 Similarly, avoid using keyboard shortcuts as these will hide the action(s) you are performing and learners may not know about them.
+If you must use them, use a keystroke visualizer tool
+or your computer's accessibility tools to echo keystrokes to the screen.
 
 Some instructors create a separate 'bare-bone' user (login) account on their laptop
 or a separate 'teaching-only' account on the service being taught (e.g., Github).
@@ -104,7 +113,9 @@ you may appear hidden for those sitting in the back rows.
 Standing makes the experience more interactive and less monotonous,
 and draws the learners' attention away from their screens to you,
 which helps getting the point you are making across.
-
+Standing also encourages you to look at your audience rather than your screen:
+if you are sitting, you are likely to do what you normally do
+when you are sitting, which is look at your own computer.
 It helps to have a high table/standing desk or lectern
 so you can have your laptop at a comfortable height for typing.
 
@@ -122,6 +133,8 @@ and you increase the chance of people with hearing difficulties being able to fo
 ## Tip 4. Use the screen(s) wisely.
 
 Use a big font and maximize the window.
+Note with a large font, you may have fewer columns and rows than you're used to,
+and you should design examples with this in mind (or at least test them).
 A black font on a white background works better than a light font on a dark background.
 When the bottom of the projector screen is at the same height or below the heads of the learners,
 people in the back won't be able to see the lower parts,
@@ -162,14 +175,19 @@ and gathers the learners' attention to you as well.
 
 ## Tip 7. Stick to the lesson material.
 
-Participatory live coding when teaching works best with a well-developed and tested lesson.
+When getting started with participatory live coding when teaching,
+it is advised to use a well-developed and tested lesson.
+Examples of such lessons specifically written for teaching using this teachnique
+are the lessons from The Carpentries https://carpentries.org/workshops-curricula.
 It may be tempting to deviate from your material because you would like to show a neat trick
 or demonstrate some alternative way of doing something,
 but there is always a fair chance you'll run into something unexpected that you then have to explain. It is thus advised not to improvise until you are familiar enough with the material and want to explain something with a low risk of failure.
 Use printouts of the lesson material during teaching,
 or alternatively use a second device (tablet or laptop) on which you can view your notes.
 Consider the use of a timer for exercises: they help keep yourself honest when you tell learners they have 5 minutes for an exercise.
-Sometimes a question or a "what ifs?" comes up that you'd like to address but need some time to sort through. Collect these, for example on sticky notes, think about while learners are doing exercises and answer them afterwards. You then don't disrupt the flow of the lesson while still showing that you take the learner's questions seriously.
+Sometimes a question or a "what ifs?" comes up that you'd like to address but need some time to sort through. Collect these, for example on sticky notes
+or ask learners to add them to a shared online document that they all can edit.
+This way, you can think about these while learners are doing exercises and answer them afterwards. You then don't disrupt the flow of the lesson while still showing that you take the learner's questions seriously.
 
 ## Tip 8. Embrace your mistakes.
 
@@ -223,7 +241,7 @@ Start small: just saying "that was fun" after something worked well is a good st
 
 Participatory live coding is used successfully by thousands of
 Carpentry instructors all over the world
-teaching programming, the use of the unix shell or version control.
+teaching programming, the use of the Unix shell or version control.
 It is increasingly being used in undergraduate teaching.
 It takes some practice to get used to presenting material this way.
 But after a few tries, most people feel it becomes natural,
