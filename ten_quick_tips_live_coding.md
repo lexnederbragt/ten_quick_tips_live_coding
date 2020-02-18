@@ -240,7 +240,7 @@ Start small: just saying "that was fun" after something worked well is a good st
 # Conclusion
 
 Participatory live coding is used successfully by thousands of
-Carpentry instructors all over the world
+instructors all over the world
 teaching programming, the use of the Unix shell or version control.
 It is increasingly being used in undergraduate teaching.
 It takes some practice to get used to presenting material this way.
