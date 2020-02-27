@@ -1,7 +1,7 @@
 Ten Quick Tips For Teaching Using Participatory Live Coding
 ----------------------------------------------
 
-Lex Nederbragt, Version 0.1 January 2020.
+Lex Nederbragt, Version 0.2 January 2020.
 
 # Introduction
 
@@ -22,8 +22,8 @@ or relying on learners reading a textbook or compendium.
 What is taught is immediately applied rather than just shown on a slide or on paper.
 It also slows the instructor down,
 giving learners more time to actively engage with the material before moving on to the next concept.
-The thought process behind coding also becomes more apparent when this is observed live.
-Learner's questions can immediately be answered and misconceptions corrected by demonstration.
+Importantly, the thought process behind coding can also be made explicit.
+Learner's questions can immediately be answered and misconceptions corrected by coding them.
 Exercises enable immediate practice using the material.
 The participatory, 'code-along' aspect is important to help novices become active practitioners,
 rather than passive observers of the programming process.
@@ -53,46 +53,55 @@ university courses involving the teaching of programming or related techniques e
 
 There is a limited body of research on the effectiveness of Live coding in programming education.
 Most studies focus on non-participatory live coding,
-demonstrating the programming process and opposing this to the use of static code on slides
-(https://doi.org/10.1145/3279720.3279725 and references therein, as well as https://dl.acm.org/doi/10.1145/3373165.3373182).
-So far, the technique show that live-coding is as good as if not better than static code examples.
+demonstrating the programming process and contrasting this with the use of static code on slides
+(see https://doi.org/10.1145/3279720.3279725 and references therein, as well as https://dl.acm.org/doi/10.1145/3373165.3373182).
+So far, the technique show that live-coding is as good as if not better than using static code examples.
 
 The ten quick tips described below are aimed at those interested in applying the technique in to their own teaching.
-These complement the "Ten quick tips for delivering programming lessons"
+They are meant to complement the "Ten quick tips for delivering programming lessons"
 https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007433.
+
 
 ## Tip 1. Go slowly.
 
 Say out loud what you are doing while you do it
 for every command you type,
 every word of code you write,
-and every menu item or website button you click,
-and then point to the command and its output on the screen and optionally go through it a second time.
-This not only slows you down,
-it allows learners who are following along to copy what you do,
-or to catch up, even when they are looking at their screen while doing it.
+and every menu item or website button you click.
+Then, point to the command and its output on the screen
+and  go through it a second time.
+This allows learners to catch up and check their understanding:
+if they are watching you type and trying to type the same code in themselves,
+they don't have time to think about what they're doing.
+As you go through it a second time, they can check their understanding
+and correct any small typos they may have made.
+This is particularly important for learners
+who may not be fluent in the language of instruction,
+or who may have hearing, vision, or mobility impairments.
+
 If the output of your command or code makes what you just typed disappear from view,
 scroll back up so learners can see it again.
 
-*Do not copy-paste code from your lesson script.*
-[FIXME: explain why not.]
+Do not copy-paste code from your lesson material and/or ask your learners to do the same.
+It's all too easy to go too fast without explaining the thought process behind the code.
 
 ## Tip 2. Mirror your learner's environment.
 
-Try to create an environment that is as similar as possible to what your learners have to reduce cognitive load.
-[FIXME: explain or include reference for "cognitive load".]
+Try to create an environment that is as similar as possible to what your learners have. If learners have to work in a different environment that you adds a mental effort that does not contribute to learning. Cognitive psychological theory calls this extraneous cognitive load (https://doi.org/10.1007/s10648-019-09465-5).
 You may have personalised your environment with a very simple or rather fancy Unix prompt,
 colour schemes for your development environment, keyboard shortcuts, etc.
+
 Your learners usually won't have all of this,
 so try to create an environment that mirrors what your learners have.
 
-Similarly, avoid using keyboard shortcuts.
-[FIXME: a sentence of explanation.]
+Similarly, avoid using keyboard shortcuts as these will hide the action(s) you are performing and learners may not know about them.
+If you must use them, use a keystroke visualizer tool
+or your computer's accessibility tools to echo keystrokes to the screen.
 
 Some instructors create a separate 'bare-bone' user (login) account on their laptop
 or a separate 'teaching-only' account on the service being taught (e.g., Github).
-It could be a benefit if both instructor and learners use the exact same software (termina or IDE),
-howevere this may incur som effort to get the software installed on the computers that students use.
+It could be a benefit if both instructor and learners use the exact same software (terminal or code development environment),
+however this may incur some effort to get the software installed on the computers that students use.
 Using a cloud-based solution may be an alternative to ensure all involved have the exact same setup.
 
 ## Tip 3. Be seen and heard.
@@ -104,9 +113,11 @@ you may appear hidden for those sitting in the back rows.
 Standing makes the experience more interactive and less monotonous,
 and draws the learners' attention away from their screens to you,
 which helps getting the point you are making across.
-
-It helps to have a high table/standing desk or lectern.
-[FIXME: explain]
+Standing also encourages you to look at your audience rather than your screen:
+if you are sitting, you are likely to do what you normally do
+when you are sitting, which is look at your own computer.
+It helps to have a high table/standing desk or lectern
+so you can have your laptop at a comfortable height for typing.
 
 Regardless of whether you are standing or sitting,
 make sure to move around as much as reasonable.
@@ -122,6 +133,8 @@ and you increase the chance of people with hearing difficulties being able to fo
 ## Tip 4. Use the screen(s) wisely.
 
 Use a big font and maximize the window.
+Note with a large font, you may have fewer columns and rows than you're used to,
+and you should design examples with this in mind (or at least test them).
 A black font on a white background works better than a light font on a dark background.
 When the bottom of the projector screen is at the same height or below the heads of the learners,
 people in the back won't be able to see the lower parts,
@@ -130,8 +143,10 @@ so resize the window(s) you use on your computer (drawing up the bottom) to comp
 Pay attention to the lighting:
 no lights should directly shine on the presenter's screen.
 
-It is even more important than when presenting slides that all learners can see the relevant portions of the screen.
-[FIXME: why?]
+It is even more important than when presenting slides
+that all learners can see the relevant portions of the screen
+as they may want to copy exactly what you have typed
+or see what you are pointing to.
 
 If you can get a second screen, use it!
 It may require its own PC or laptop,
@@ -152,58 +167,44 @@ and these may help learners to understand the stages of the lesson and to organi
 What can work really well is when you as instructor generate the illustrations on the whiteboard as you progress through the material.
 This allows you to build up diagrams,
 making them increasingly complex in parallel with the material you are teaching.
-[FIXME: mention dual coding and the value of presenting complementary information on visual and linguistic channels.]
+Presenting complementary information using visual and verbal representations helps learning (so-called "dual coding") (Clark, J.M. & Paivio, A. Educ Psychol Rev (1991) 3: 149. https://doi.org/10.1007/BF01320076).
 
 Diagramming helps learners understand the material,
-makes for a more lively workshop (you'll have to move between your computer and the blackboard),
+makes for a more lively workshop (you'll have to move between your computer and the whiteboard),
 and gathers the learners' attention to you as well.
-[FIXME: more detail here?]
 
 ## Tip 7. Stick to the lesson material.
 
-Participatory live coding when teaching works best with a well-developed and tested script.
-[FIXME: GVW doesn't like the term "script". Worth making the analogy with jazz - there's a score, but you're expected to improvise on top of it?]
+When getting started with participatory live coding when teaching,
+it is advised to use a well-developed and tested lesson.
+Examples of such lessons specifically written for teaching using this teachnique
+are the lessons from The Carpentries https://carpentries.org/workshops-curricula.
 It may be tempting to deviate from your material because you would like to show a neat trick
 or demonstrate some alternative way of doing something,
-but there is always a fair chance you'll run into something unexpected that you then have to explain,
-so it is advised not to improvise.
-[FIXME: GVW disagrees :-)]
-
-If you really want to use something outside of the material,
-try it out thoroughly before teaching it:
-run through the lesson as you would during the actual teaching and test the effect of your modification.
-
+but there is always a fair chance you'll run into something unexpected that you then have to explain. It is thus advised not to improvise until you are familiar enough with the material and want to explain something with a low risk of failure.
 Use printouts of the lesson material during teaching,
 or alternatively use a second device (tablet or laptop) on which you can view your notes.
-[FIXME: mention timers here - when you tell learners they have 5 minutes for an exercise, keep yourself honest.]
-
-[FIXME: create a backlog of "what ifs?" and other questions that you can sort through and think about while learners are doing exercises.]
+Consider the use of a timer for exercises: they help keep yourself honest when you tell learners they have 5 minutes for an exercise.
+Sometimes a question or a "what ifs?" comes up that you'd like to address but need some time to sort through. Collect these, for example on sticky notes
+or ask learners to add them to a shared online document that they all can edit.
+This way, you can think about these while learners are doing exercises and answer them afterwards. You then don't disrupt the flow of the lesson while still showing that you take the learner's questions seriously.
 
 ## Tip 8. Embrace your mistakes.
 
 No matter how well prepared you are, you will make mistakes:
 typos are hard to avoid,
 you may overlook something from the lesson instructions, etc.
-This is not really a problem, and can actually be turned into a teachable moment,
-so called "positive error framing" (doi:10.1080/00223980.2012.748581).
-Experiencing the instructor making a mistake allows learners to see how to diagnose and correct them.
-Some mistakes are actually an opportunity to point something out,
-or reflect back on something covered earlier.
-Novices are going to spend at least some their time making similar mistakes,
+This is not really a problem, and can actually be turned into a teachable moment:
+novices are going to spend at least some their time making similar mistakes,
 but how to deal with the is left out of most textbooks.
-[FIXME: this paragraph has all the right points but the order feels choppy.]
+Experiencing the instructor making a mistake allows learners to see how to diagnose and correct them, and gives the learners permission to make and share theirs.
+This way of dealing with mistakes is so-called "positive error framing" which has shown to be beneficial for learning (doi:10.1080/00223980.2012.748581).
 
-[FIXME: making mistakes gives the learners permission to make and share theirs.]
+## Tip 9. Get real-time feedback.
 
-## Tip 9. Leave no learner behind.
-
-[FIXME: but this isn't really what sticky notes do, since you _may_ still have to leave someone behind.
-Maybe "get real-time feedback" would be a better title?]
-
-Give each learner two sticky notes of different colours, e.g., blue and yellow.
-[FIXME: except some people are blue-yellow colorblind]
+Give each learner two sticky notes of different colours, e.g., blue and yellow, checking with your learners if all of them can distinguish between them (some people are blue-yellow colorblind).
 These can be held up for voting, but their real use is as status flags.
-If someone has completed an exercise and wants it checked,
+If someone has completed an exercise,
 they put the yellow sticky note on their laptop;
 if they run into a problem and need help,
 they put up the blue one.
@@ -221,6 +222,8 @@ giving yourself or any helpers you may have time to fix the problem.
 
 [FIXME: GVW would move this advice into the conclusion, and replace it with "Turn learners into co-instructors", then talk about having learners call out lines of code that the instructor types in, pair programming, shared note-taking, etc.]
 
+[LN feels that pair programming is not a live coding practice, nor is shared note-taking. That being said, some of the other tips are more general too.]
+
 Teaching is performance art and can be rather serious business.
 Don't let this scare you:
 it is OK to add an element of play,
@@ -233,6 +236,17 @@ Choose your words and actions wisely, though.
 Remember that you want the learners to have a welcoming experience and a positive learning environment:
 a misplaced joke can ruin this in an instance.
 Start small: just saying "that was fun" after something worked well is a good start.
+
+# Conclusion
+
+Participatory live coding is used successfully by thousands of
+instructors all over the world
+teaching programming, the use of the Unix shell or version control.
+It is increasingly being used in undergraduate teaching.
+It takes some practice to get used to presenting material this way.
+But after a few tries, most people feel it becomes natural,
+and rewarding as you interact with your learners in a wholly different way
+then when presenting slides.
 
 ## Sources for these ten quick tips and further reading
 
@@ -247,4 +261,4 @@ Thanks to Dr David Martin
 (University of Dundee, Scotland)
 for suggesting the word 'participatory' to distinguish this form of live coding from other forms.
 
-Potential co-authors/pre-reviewers: Neil Davis, Rayna Harris, Greg Wilson
+[FIXME: Potential co-authors/pre-reviewers: Neil Davis, Rayna Harris, Greg Wilson]
