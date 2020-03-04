@@ -218,24 +218,20 @@ To prevent this issue slowing down the whole class too much,
 use the occasion to take the small break you had planned to take a bit later,
 giving yourself or any helpers you may have time to fix the problem.
 
-## Tip 10. Have fun.
+## Tip 10. Turn learners into co-instructors.
 
-[FIXME: GVW would move this advice into the conclusion, and replace it with "Turn learners into co-instructors", then talk about having learners call out lines of code that the instructor types in, pair programming, shared note-taking, etc.]
+During participatory live coding,
+learners are actively coding along with the instructor.
+You can engage them even more in different ways.
+For example, have learners call out the next line of code that
+they think you as instructor should type next.
+It helps you to understand any misunderstandings learners might have,
+as well as having them practice applying the material taught.
+You can also ask them to take notes collaboratively,
+using an online note-taking document that they all can edit.
+Having learners discuss and verbalize the material they just learned
+in their own words helps solidify their knowledge.
 
-[LN feels that pair programming is not a live coding practice, nor is shared note-taking. That being said, some of the other tips are more general too.]
-
-Teaching is performance art and can be rather serious business.
-Don't let this scare you:
-it is OK to add an element of play,
-i.e.,
-to use humor and improvisation to liven up the teaching.
-How much you are able and willing to do this is really a matter of personality and taste as well as experience.
-It becomes easier when you are more familiar with the material, allowing you to relax more.
-
-Choose your words and actions wisely, though.
-Remember that you want the learners to have a welcoming experience and a positive learning environment:
-a misplaced joke can ruin this in an instance.
-Start small: just saying "that was fun" after something worked well is a good start.
 
 # Conclusion
 
@@ -247,6 +243,19 @@ It takes some practice to get used to presenting material this way.
 But after a few tries, most people feel it becomes natural,
 and rewarding as you interact with your learners in a wholly different way
 then when presenting slides.
+
+Teaching is performance art and can be rather serious business.
+Don't let this scare you:
+it is OK to add an element of play,
+i.e.,
+to use humor and improvisation to liven up the teaching.
+How much you are able and willing to do this is really a matter of personality and taste as well as experience.
+It becomes easier when you are more familiar with the material, allowing you to relax more.
+Choose your words and actions wisely, though.
+Remember that you want the learners to have a welcoming experience and a positive learning environment:
+a misplaced joke can ruin this in an instance.
+Start small: just saying "that was fun" after something worked well is a good start.
+
 
 ## Sources for these ten quick tips and further reading
 
