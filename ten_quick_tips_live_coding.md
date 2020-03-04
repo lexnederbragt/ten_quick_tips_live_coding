@@ -1,7 +1,7 @@
 Ten Quick Tips For Teaching Using Participatory Live Coding
 ----------------------------------------------
 
-Lex Nederbragt, Version 0.2 January 2020.
+Lex Nederbragt and Greg Wilson, Version 0.3 March 2020.
 
 # Introduction
 
