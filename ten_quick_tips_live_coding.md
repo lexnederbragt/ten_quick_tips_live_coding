@@ -1,7 +1,11 @@
-Ten Quick Tips For Teaching Using Participatory Live Coding
-----------------------------------------------
-
-Lex Nederbragt and Greg Wilson, Version 0.3 March 2020.
+---
+title: Ten Quick Tips For Teaching Using Participatory Live Coding
+author: Lex Nederbragt, Greg Wilson
+date: March 2020, version 0.3
+bibliography: references.bib
+csl: plos-computational-biology.csl
+link-citations: true
+---
 
 # Introduction
 
@@ -37,30 +41,32 @@ and diagnosing and solving mistakes is an integral aspect of learning programmin
 
 Participatory live coding for teaching programming should not be confused with Live Coding used to demonstrate software
 (for example, at a conference, with an audience passively observing),
-Live Streaming programming (doi:10.1145/3059009.3059035),
-or used as a form of performing art (e.g. while creating computer music, https://www.cambridge.org/core/journals/organised-sound/article/live-coding-in-laptop-performance/08F42B84BBCA427C345030481A3DDA0D).
-
-A video recording demonstrating the technique can be found here <https://vimeo.com/139316669>.
+Live Streaming programming [@haaranenProgrammingPerformanceLivestreaming2017],
+or used as a form of performing art (e.g. while creating computer music [@collinsLiveCodingLaptop2003]).
+A video recording demonstrating the technique can be found here: <https://vimeo.com/139316669>.
 
 ## Who uses it
 
-Participatory live coding is the main teaching method in workshops organised by the global non-profit called The Carpentries,
+Participatory live coding is the main teaching method in workshops organised by the global non-profit called The Carpentries [^carpentries],
 the umbrella organisation for Software Carpentry, Data Carpentry and Library Carpentry
-(https://carpentries.org, doi:10.12688/f1000research.3-62.v2).
+[@wilsonSoftwareCarpentryLessons2016].
 Increasingly,
-university courses involving the teaching of programming or related techniques employ the method
-(https://lexnederbragt.com/blog/2017-12-17-experiences-with-the-first-edition-of-introduction-to-computational-modelling-for-the-biosciences/, https://jose.theoj.org/papers/1a083e69c49c15011f9404dfab9b1ec8).
+university courses involving the teaching of programming or related techniques employ the method [@johnstonGraduateStudentledParticipatory2019] [^bios1100].
+
+
+[^carpentries]: https://carpentries.org
+[^bios1100]: https://lexnederbragt.com/blog/2017-12-17-experiences-with-the-first-edition-of-introduction-to-computational-modelling-for-the-biosciences/
 
 There is a limited body of research on the effectiveness of Live coding in programming education.
 Most studies focus on non-participatory live coding,
 demonstrating the programming process and contrasting this with the use of static code on slides
-(see https://doi.org/10.1145/3279720.3279725 and references therein, as well as https://dl.acm.org/doi/10.1145/3373165.3373182).
-So far, the technique show that live-coding is as good as if not better than using static code examples.
+(see @rajRoleLivecodingLearning2018 and references therein, as well as [@rajLivecodingVsStatic2020]).
+
+So far, the technique show that live-coding is as good as if not better than using static code examples [@rajRoleLivecodingLearning2018; @rubinEffectivenessLivecodingTeach2013]
+and thus is a recommended approach for teaching programming [@brownTenQuickTips2018; @wrightWhyWhenHow2020].
 
 The ten quick tips described below are aimed at those interested in applying the technique in to their own teaching.
-They are meant to complement the "Ten quick tips for delivering programming lessons"
-https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007433.
-
+They are meant to complement the "Ten quick tips for delivering programming lessons" [@brownTenQuickTips2018].
 
 ## Tip 1. Go slowly.
 
@@ -87,7 +93,8 @@ It's all too easy to go too fast without explaining the thought process behind t
 
 ## Tip 2. Mirror your learner's environment.
 
-Try to create an environment that is as similar as possible to what your learners have. If learners have to work in a different environment that you adds a mental effort that does not contribute to learning. Cognitive psychological theory calls this extraneous cognitive load (https://doi.org/10.1007/s10648-019-09465-5).
+Try to create an environment that is as similar as possible to what your learners have. If learners have to work in a different environment that you adds a mental effort that does not contribute to learning. Cognitive psychological theory calls this extraneous cognitive load
+[@swellerCognitiveArchitectureInstructional2019].
 You may have personalised your environment with a very simple or rather fancy Unix prompt,
 colour schemes for your development environment, keyboard shortcuts, etc.
 
@@ -167,8 +174,7 @@ and these may help learners to understand the stages of the lesson and to organi
 What can work really well is when you as instructor generate the illustrations on the whiteboard as you progress through the material.
 This allows you to build up diagrams,
 making them increasingly complex in parallel with the material you are teaching.
-Presenting complementary information using visual and verbal representations helps learning (so-called "dual coding") (Clark, J.M. & Paivio, A. Educ Psychol Rev (1991) 3: 149. https://doi.org/10.1007/BF01320076).
-
+Presenting complementary information using visual and verbal representations helps learning (so-called "dual coding" [@clarkDualCodingTheory1991]).
 Diagramming helps learners understand the material,
 makes for a more lively workshop (you'll have to move between your computer and the whiteboard),
 and gathers the learners' attention to you as well.
@@ -178,7 +184,7 @@ and gathers the learners' attention to you as well.
 When getting started with participatory live coding when teaching,
 it is advised to use a well-developed and tested lesson.
 Examples of such lessons specifically written for teaching using this teachnique
-are the lessons from The Carpentries https://carpentries.org/workshops-curricula.
+are the lessons from The Carpentries [^carpentries-lessons].
 It may be tempting to deviate from your material because you would like to show a neat trick
 or demonstrate some alternative way of doing something,
 but there is always a fair chance you'll run into something unexpected that you then have to explain. It is thus advised not to improvise until you are familiar enough with the material and want to explain something with a low risk of failure.
@@ -189,6 +195,8 @@ Sometimes a question or a "what ifs?" comes up that you'd like to address but ne
 or ask learners to add them to a shared online document that they all can edit.
 This way, you can think about these while learners are doing exercises and answer them afterwards. You then don't disrupt the flow of the lesson while still showing that you take the learner's questions seriously.
 
+[^carpentries-lessons]: https://carpentries.org/workshops-curricula
+
 ## Tip 8. Embrace your mistakes.
 
 No matter how well prepared you are, you will make mistakes:
@@ -198,7 +206,7 @@ This is not really a problem, and can actually be turned into a teachable moment
 novices are going to spend at least some their time making similar mistakes,
 but how to deal with the is left out of most textbooks.
 Experiencing the instructor making a mistake allows learners to see how to diagnose and correct them, and gives the learners permission to make and share theirs.
-This way of dealing with mistakes is so-called "positive error framing" which has shown to be beneficial for learning (doi:10.1080/00223980.2012.748581).
+This way of dealing with mistakes is so-called "positive error framing" which has shown to be beneficial for learning [@steele-johnsonErrorFramingEffects2014].
 
 ## Tip 9. Get real-time feedback.
 
@@ -260,14 +268,24 @@ Start small: just saying "that was fun" after something worked well is a good st
 ## Sources for these ten quick tips and further reading
 
 These tips were developed in the context of Software Carpentry
-and a first edition appeared on [their blog](https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html.)
-They have become part of the Carpentries [instructor training](https://carpentries.github.io/instructor-training) materials.
-These also use example vidoes contrasting [live coding done poorly](https://youtu.be/bXxBeNkKmJE)
-and [live coding done well](https://youtu.be/SkPmwe_WjeY).
-[*Teaching Tech Together*](https://teachtogether.tech/) has a section on [live coding](https://teachtogether.tech/#s:performance-live).
+and a first edition appeared on their blog [^sws-ten-tips].
+They have become part of the Carpentries instructor training materials [^carpenties-instr-training].
+These also use example videos contrasting live coding done poorly [^live-coding-poor]
+and live coding done well [^live-coding-well].
+[@wilsonTeachingTechTogether2019] has a section on live coding [^ttt-live-coding].
 
-Thanks to Dr David Martin
-(University of Dundee, Scotland)
-for suggesting the word 'participatory' to distinguish this form of live coding from other forms.
 
-[FIXME: Potential co-authors/pre-reviewers: Neil Davis, Rayna Harris, Greg Wilson]
+[^sws-ten-tips]: https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html
+[^carpenties-instr-training]: https://carpentries.github.io/instructor-training
+[^live-coding-poor]: https://youtu.be/bXxBeNkKmJE
+[^live-coding-well]: https://youtu.be/SkPmwe_WjeY
+[^ttt-live-coding]: Also accessible at https://teachtogether.tech/#s:performance-live
+
+## Acknowledgements
+
+The authors wish to thanks Dr David Martin (University of Dundee, Scotland)
+for suggesting the word 'participatory'
+to distinguish this form of live coding from other forms.
+
+
+# References
