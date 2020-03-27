@@ -1,23 +1,30 @@
 ---
-title: Ten Quick Tips For Teaching Using Participatory Live Coding
+title: Ten Quick Tips For Teaching With Participatory Live Coding
 author: Lex Nederbragt, Greg Wilson
-date: March 2020, version 0.3
+date: March 2020, version 0.4
 bibliography: references.bib
 csl: plos-computational-biology.csl
 link-citations: true
 ---
 
+![Ten quick tips for teaching with participatory live coding](summary.png)
+
 # Introduction
 
 ## What is participatory live coding?
 
-Participatory live coding is a technique where a teacher or instructor does live programming
-while the learners simultaneously copy and execute the exact code or commands that are being written.
-The instructor reads what is being typed out loud,
-explaining the different elements and principles.
-Instructor and learners all execute the commands or program,
-leading to an immediate evaluation of the results.
-Learners thus 'code-along' with the instructor.
+Participatory live coding is a technique where a teacher or instructor
+writes and narrates code out loud as they teach,
+and invites learners to join them by writing and executing the same code.
+Learners watch as an instructor writes code live in real time,
+typically via one or more projector screens
+that show the same screen as the instructor sees.
+Instructors also read as they type out loud,
+explaining the different elements and principles
+that are relevant for learners to understand the code.
+At the same time, each learner is invited to copy and execute the exact code
+or commands that are being written on their own work station.
+Learners thus ‘code-along’ with the instructor.
 There are frequent, often short, exercises,
 where learners are asked to solve a small relevant problem on their own.
 
@@ -39,7 +46,7 @@ instructors will often make unplanned mistakes.
 Novice learners are likely to make many such mistakes themselves,
 and diagnosing and solving mistakes is an integral aspect of learning programming.
 
-Participatory live coding for teaching programming should not be confused with Live Coding used to demonstrate software
+Participatory live coding for teaching programming should not be confused with live coding used to demonstrate software
 (for example, at a conference, with an audience passively observing),
 Live Streaming programming [@haaranenProgrammingPerformanceLivestreaming2017],
 or used as a form of performing art (e.g. while creating computer music [@collinsLiveCodingLaptop2003]).
@@ -50,19 +57,19 @@ A video recording demonstrating the technique can be found here: <https://vimeo.
 Participatory live coding is the main teaching method in workshops organised by the global non-profit called The Carpentries [^carpentries],
 the umbrella organisation for Software Carpentry, Data Carpentry and Library Carpentry
 [@wilsonSoftwareCarpentryLessons2016].
+The Carpentries teaches participatory live coding explicitly as a teaching technique when training new instructors [@erinalisonbeckerCarpentriesInstructortrainingCarpentries2019].
 Increasingly,
 university courses involving the teaching of programming or related techniques employ the method [@johnstonGraduateStudentledParticipatory2019] [^bios1100].
-
 
 [^carpentries]: https://carpentries.org
 [^bios1100]: https://lexnederbragt.com/blog/2017-12-17-experiences-with-the-first-edition-of-introduction-to-computational-modelling-for-the-biosciences/
 
-There is a limited body of research on the effectiveness of Live coding in programming education.
+There is a limited body of research on the effectiveness of live coding in programming education.
 Most studies focus on non-participatory live coding,
 demonstrating the programming process and contrasting this with the use of static code on slides
 (see @rajRoleLivecodingLearning2018 and references therein, as well as [@rajLivecodingVsStatic2020]).
 
-So far, the technique show that live-coding is as good as if not better than using static code examples [@rajRoleLivecodingLearning2018; @rubinEffectivenessLivecodingTeach2013]
+So far, the technique show that live coding is as good as if not better than using static code examples [@rajRoleLivecodingLearning2018; @rubinEffectivenessLivecodingTeach2013]
 and thus is a recommended approach for teaching programming [@brownTenQuickTips2018; @wrightWhyWhenHow2020].
 
 The ten quick tips described below are aimed at those interested in applying the technique in to their own teaching.
@@ -70,6 +77,10 @@ They are meant to complement the "Ten quick tips for delivering programming less
 
 ## Tip 1. Go slowly.
 
+When using participatory live coding,
+you need to teach and program at a pace that allows learners to follow along
+and not get left behind.
+To do this, you will need to go slower than if you were coding alone.
 Say out loud what you are doing while you do it
 for every command you type,
 every word of code you write,
@@ -88,31 +99,49 @@ or who may have hearing, vision, or mobility impairments.
 If the output of your command or code makes what you just typed disappear from view,
 scroll back up so learners can see it again.
 
-Do not copy-paste code from your lesson material and/or ask your learners to do the same.
-It's all too easy to go too fast without explaining the thought process behind the code.
+If your current practice involves copying and pasting code
+from your lesson material, try transitioning to a technique where you,
+the instructor, type everything in the console or editor,
+while still allowing the students to copy and paste text
+from the resources provided.
+In the end, not using copy-paste as instructor and learner will work better, as
+it avoids going too fast without explaining
+the thought process behind the code.
+
+[FIXME Allison: I feel like the phrase "I do, we do, you do" encompasses the spirit of para 1 here- worthwhile to include as a useful mnemonic? LN response: assigning this to @ gvwilson]
 
 ## Tip 2. Mirror your learner's environment.
 
-Try to create an environment that is as similar as possible to what your learners have. If learners have to work in a different environment that you adds a mental effort that does not contribute to learning. Cognitive psychological theory calls this extraneous cognitive load
-[@swellerCognitiveArchitectureInstructional2019].
-You may have personalised your environment with a very simple or rather fancy Unix prompt,
+If learners have to work in a different environment than you,
+this adds a mental effort that does not contribute to learning.
+Cognitive psychological theory calls this 'extraneous cognitive load' [@swellerCognitiveArchitectureInstructional2019].
+Try to create an environment that is as similar as possible to what your
+learners have.
+For example, you may have personalised your environment with a very simple
+or rather fancy Unix prompt,
 colour schemes for your development environment, keyboard shortcuts, etc.
+Your learners usually won't have all of this.
 
-Your learners usually won't have all of this,
-so try to create an environment that mirrors what your learners have.
-
-Similarly, avoid using keyboard shortcuts as these will hide the action(s) you are performing and learners may not know about them.
+Similarly, avoid using keyboard shortcuts as these will hide the action(s)
+you are performing and learners may not know about them.
 If you must use them, use a keystroke visualizer tool
 or your computer's accessibility tools to echo keystrokes to the screen.
 
-Some instructors create a separate 'bare-bone' user (login) account on their laptop
-or a separate 'teaching-only' account on the service being taught (e.g., Github).
-It could be a benefit if both instructor and learners use the exact same software (terminal or code development environment),
-however this may incur some effort to get the software installed on the computers that students use.
-Using a cloud-based solution may be an alternative to ensure all involved have the exact same setup.
+Some instructors create a separate 'bare-bone' user (login)
+account on their laptop or a separate 'teaching-only' account
+on the service being taught (e.g., Github).
+It could be a benefit if both instructor
+and learners use the exact same software
+(terminal or code development environment),
+however this may incur some effort to get the software installed
+on the computers that students use.
+Using a cloud-based solution may be an alternative to ensure all involved
+have the exact same setup.
 
 ## Tip 3. Be seen and heard.
 
+As learners are coding along, it is important they clearly
+see and hear what you are doing.
 If you are physically able to stand up for a couple of hours,
 do it while you are teaching.
 When you sit down,
@@ -129,16 +158,22 @@ so you can have your laptop at a comfortable height for typing.
 Regardless of whether you are standing or sitting,
 make sure to move around as much as reasonable.
 For example,
-you could walk to the screen to point something out or draw something on the whiteboard (see below).
+you could walk to the screen to point something out or draw something
+on the whiteboard (see below).
 
 Even though you may have a good voice and know how to use it well,
 it may be an advantage to use a microphone,
 especially if the room is equipped with one.
-Your will tire your voice less,
-and you increase the chance of people with hearing difficulties being able to follow the teaching.
+You will tire your voice less,
+and you increase the chance of people with hearing difficulties
+being able to follow the teaching.
 
 ## Tip 4. Use the screen(s) wisely.
 
+When live coding, it is even more important than when presenting slides
+that all learners can see the relevant portions of the screen
+as they may want to copy exactly what you have typed
+or see what you are pointing to.
 Use a big font and maximize the window.
 Note with a large font, you may have fewer columns and rows than you're used to,
 and you should design examples with this in mind (or at least test them).
@@ -150,22 +185,17 @@ so resize the window(s) you use on your computer (drawing up the bottom) to comp
 Pay attention to the lighting:
 no lights should directly shine on the presenter's screen.
 
-It is even more important than when presenting slides
-that all learners can see the relevant portions of the screen
-as they may want to copy exactly what you have typed
-or see what you are pointing to.
-
 If you can get a second screen, use it!
 It may require its own PC or laptop,
 so you may need to ask a helper to control it.
 You can use the second screen to show illustrations or the lesson material.
 
-## Tip 5. Avoid being disturbed.
+## Tip 5. Avoid distractions.
 
-Turn off notifications on your laptop and phone,
-such as those from social media, email, etc.
 Seeing notifications flash by on the screen distracts you as well as the learners,
 and may even result in awkward situations when a message pops up you'd rather not have others see.
+Turn off notifications on your laptop and phone,
+such as those from social media, email, etc.
 
 ## Tip 6. Use illustrations - even better, draw them.
 
@@ -175,6 +205,8 @@ What can work really well is when you as instructor generate the illustrations o
 This allows you to build up diagrams,
 making them increasingly complex in parallel with the material you are teaching.
 Presenting complementary information using visual and verbal representations helps learning (so-called "dual coding" [@clarkDualCodingTheory1991]).
+Consider having learners draw or fill in diagrams themselves,
+from scratch or from fill-in-the-blank diagrams you have prepared in advance
 Diagramming helps learners understand the material,
 makes for a more lively workshop (you'll have to move between your computer and the whiteboard),
 and gathers the learners' attention to you as well.
@@ -183,8 +215,12 @@ and gathers the learners' attention to you as well.
 
 When getting started with participatory live coding when teaching,
 it is advised to use a well-developed and tested lesson.
-Examples of such lessons specifically written for teaching using this teachnique
-are the lessons from The Carpentries [^carpentries-lessons].
+Examples of well-tested such lessons specifically written for teaching
+using this technique are the collaboratively developed lessons
+from The Carpentries [^carpentries-lessons].
+Practicing teaching your lesson material in advance is important,
+as the participatory live coding technique can be more demanding,
+especially when you are doing it for the first time.
 It may be tempting to deviate from your material because you would like to show a neat trick
 or demonstrate some alternative way of doing something,
 but there is always a fair chance you'll run into something unexpected that you then have to explain. It is thus advised not to improvise until you are familiar enough with the material and want to explain something with a low risk of failure.
@@ -202,21 +238,30 @@ This way, you can think about these while learners are doing exercises and answe
 No matter how well prepared you are, you will make mistakes:
 typos are hard to avoid,
 you may overlook something from the lesson instructions, etc.
-This is not really a problem, and can actually be turned into a teachable moment:
+Experiencing the instructor making a mistake allows learners to see how to diagnose and correct them, and gives the learners permission to make and share theirs.
+This is a way of dealing with mistakes that is called "positive error framing",
+and it has shown to be beneficial for learning [@steele-johnsonErrorFramingEffects2014].
+So, don't fear making mistakes, and turn them into a teachable moment:
 novices are going to spend at least some their time making similar mistakes,
 but how to deal with the is left out of most textbooks.
-Experiencing the instructor making a mistake allows learners to see how to diagnose and correct them, and gives the learners permission to make and share theirs.
-This way of dealing with mistakes is so-called "positive error framing" which has shown to be beneficial for learning [@steele-johnsonErrorFramingEffects2014].
+For example, read out the error message and explain how it told you what mistake you made.
+You can also involve the students in the problem-solving by asking them what they think went wrong and how it can be fixed.
 
 ## Tip 9. Get real-time feedback.
 
-Give each learner two sticky notes of different colours, e.g., blue and yellow, checking with your learners if all of them can distinguish between them (some people are blue-yellow colorblind).
+It can be difficult while teaching to be sure all learners are following along
+and do not fall behind.
+One way to check with your learners is to
+give each learner two sticky notes of different colours, e.g., blue and yellow,
+checking with your learners if all of them can distinguish between them
+(some people are blue-yellow colorblind).
 These can be held up for voting, but their real use is as status flags.
 If someone has completed an exercise,
 they put the yellow sticky note on their laptop;
 if they run into a problem and need help,
 they put up the blue one.
-This is better than having people raise their hands because they can keep working while their flag is raised,
+This is better than having people raise their hands because they can
+keep working while their flag is raised,
 while signalling to any available helpers who to go to.
 
 Also,
@@ -239,7 +284,10 @@ You can also ask them to take notes collaboratively,
 using an online note-taking document that they all can edit.
 Having learners discuss and verbalize the material they just learned
 in their own words helps solidify their knowledge.
-
+When you need to manage a diverse classroom
+where you have a range of experience and expertise amongst your learners,
+asking the more experienced learners to contribute
+may also help keep them motivated.
 
 # Conclusion
 
@@ -250,7 +298,7 @@ It is increasingly being used in undergraduate teaching.
 It takes some practice to get used to presenting material this way.
 But after a few tries, most people feel it becomes natural,
 and rewarding as you interact with your learners in a wholly different way
-then when presenting slides.
+than when presenting slides.
 
 Teaching is performance art and can be rather serious business.
 Don't let this scare you:
@@ -261,7 +309,7 @@ How much you are able and willing to do this is really a matter of personality a
 It becomes easier when you are more familiar with the material, allowing you to relax more.
 Choose your words and actions wisely, though.
 Remember that you want the learners to have a welcoming experience and a positive learning environment:
-a misplaced joke can ruin this in an instance.
+a misplaced joke can ruin things in an instance.
 Start small: just saying "that was fun" after something worked well is a good start.
 
 
