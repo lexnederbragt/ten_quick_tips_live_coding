@@ -54,15 +54,12 @@ A video recording demonstrating the technique can be found here: <https://vimeo.
 
 ## Who uses it
 
-Participatory live coding is the main teaching method in workshops organised by the global non-profit called The Carpentries [^carpentries],
+Participatory live coding is the main teaching method in workshops organised by the global non-profit called The Carpentries (<https://carpentries.org>),
 the umbrella organisation for Software Carpentry, Data Carpentry and Library Carpentry
 [@wilsonSoftwareCarpentryLessons2016].
 The Carpentries teaches participatory live coding explicitly as a teaching technique when training new instructors [@erinalisonbeckerCarpentriesInstructortrainingCarpentries2019].
 Increasingly,
-university courses involving the teaching of programming or related techniques employ the method [@johnstonGraduateStudentledParticipatory2019] [^bios1100].
-
-[^carpentries]: https://carpentries.org
-[^bios1100]: https://lexnederbragt.com/blog/2017-12-17-experiences-with-the-first-edition-of-introduction-to-computational-modelling-for-the-biosciences/
+university courses involving the teaching of programming or related techniques employ the method (<https://lexnederbragt.com/bios1100>)[@johnstonGraduateStudentledParticipatory2019].
 
 There is a limited body of research on the effectiveness of live coding in programming education.
 Most studies focus on non-participatory live coding,
@@ -217,7 +214,7 @@ When getting started with participatory live coding when teaching,
 it is advised to use a well-developed and tested lesson.
 Examples of well-tested such lessons specifically written for teaching
 using this technique are the collaboratively developed lessons
-from The Carpentries [^carpentries-lessons].
+from The Carpentries (<https://carpentries.org/workshops-curricula>).
 Practicing teaching your lesson material in advance is important,
 as the participatory live coding technique can be more demanding,
 especially when you are doing it for the first time.
@@ -230,8 +227,6 @@ Consider the use of a timer for exercises: they help keep yourself honest when y
 Sometimes a question or a "what ifs?" comes up that you'd like to address but need some time to sort through. Collect these, for example on sticky notes
 or ask learners to add them to a shared online document that they all can edit.
 This way, you can think about these while learners are doing exercises and answer them afterwards. You then don't disrupt the flow of the lesson while still showing that you take the learner's questions seriously.
-
-[^carpentries-lessons]: https://carpentries.org/workshops-curricula
 
 ## Tip 8. Embrace your mistakes.
 
@@ -316,18 +311,12 @@ Start small: just saying "that was fun" after something worked well is a good st
 ## Sources for these ten quick tips and further reading
 
 These tips were developed in the context of Software Carpentry
-and a first edition appeared on their blog [^sws-ten-tips].
-They have become part of the Carpentries instructor training materials [^carpenties-instr-training].
-These also use example videos contrasting live coding done poorly [^live-coding-poor]
-and live coding done well [^live-coding-well].
-[@wilsonTeachingTechTogether2019] has a section on live coding [^ttt-live-coding].
-
-
-[^sws-ten-tips]: https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html
-[^carpenties-instr-training]: https://carpentries.github.io/instructor-training
-[^live-coding-poor]: https://youtu.be/bXxBeNkKmJE
-[^live-coding-well]: https://youtu.be/SkPmwe_WjeY
-[^ttt-live-coding]: Also accessible at https://teachtogether.tech/#s:performance-live
+and a first edition appeared on their blog (<https://software-carpentry.org/blog/2016/04/tips-tricks-live-coding.html>).
+They have become part of the Carpentries instructor training materials (<https://carpentries.github.io/instructor-training>).
+These also use example videos contrasting live coding
+done poorly (<https://youtu.be/bXxBeNkKmJE>)
+and live coding done well (<https://youtu.be/SkPmwe_WjeY>).
+[@wilsonTeachingTechTogether2019] has a section on live coding.
 
 ## Acknowledgements
 
