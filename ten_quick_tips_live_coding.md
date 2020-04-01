@@ -39,7 +39,7 @@ or relying on learners reading a textbook or compendium.
 What is taught is immediately applied rather than just shown on a slide or on paper:
 it embodies the "I do, we do, you do" approach to knowledge transfer
 that is used both formally and informally
-to teach everything from laboratory bench skills to grant writing.
+to teach everything from laboratory bench skills to grant writing [@fisherBetterLearningStructured2013].
 
 It also slows the instructor down,
 giving learners more time to actively engage with the material before moving on to the next concept.
