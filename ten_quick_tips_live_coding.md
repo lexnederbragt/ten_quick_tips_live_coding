@@ -1,13 +1,19 @@
 ---
 title: Ten Quick Tips For Teaching With Participatory Live Coding
-author: Lex Nederbragt, Greg Wilson
-date: March 2020, version 0.4
+author: Lex Nederbragt^1^, Rayna Michelle Harris^2^, Alison Presmanes Hill^3^, Greg Wilson^3^
+date: March 2020, version 0.5
 bibliography: references.bib
 csl: plos-computational-biology.csl
 link-citations: true
 ---
 
-![Ten quick tips for teaching with participatory live coding](summary.png)
+^1^Department of Biosciences, University of Oslo, Oslo, Norway  
+^2^Department of Neurobiology, Physiology and Behavior, University of California, Davis,  United States of America  
+^3^Rstudio, PBC, Boston, United States of America  
+
+**Corresponding author** E-mail: lex.nederbragt@ibv.uio.no
+
+![Summary of the ten quick tips for teaching with participatory live coding](summary.png)
 
 # Introduction
 
