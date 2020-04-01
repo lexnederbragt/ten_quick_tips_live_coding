@@ -30,7 +30,11 @@ where learners are asked to solve a small relevant problem on their own.
 
 This approach aims to be an improvement on teaching programming through lecturing showing static code,
 or relying on learners reading a textbook or compendium.
-What is taught is immediately applied rather than just shown on a slide or on paper.
+What is taught is immediately applied rather than just shown on a slide or on paper:
+it embodies the "I do, we do, you do" approach to knowledge transfer
+that is used both formally and informally
+to teach everything from laboratory bench skills to grant writing.
+
 It also slows the instructor down,
 giving learners more time to actively engage with the material before moving on to the next concept.
 Importantly, the thought process behind coding can also be made explicit.
@@ -107,8 +111,6 @@ from the resources provided.
 In the end, not using copy-paste as instructor and learner will work better, as
 it avoids going too fast without explaining
 the thought process behind the code.
-
-[FIXME Allison: I feel like the phrase "I do, we do, you do" encompasses the spirit of para 1 here- worthwhile to include as a useful mnemonic? LN response: assigning this to @ gvwilson]
 
 ## Tip 2. Mirror your learner's environment.
 
