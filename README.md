@@ -3,9 +3,22 @@ Ten Quick Tips For Teaching Using Participatory Live Coding
 
 To be submitted to the [PLOS Computational Biology Education collection](https://collections.plos.org/compbiol-education).
 
-Click here for [the main text](ten_quick_tips_live_coding.md#ten-quick-tips-for-teaching-using-participatory-live-coding) or download [the pdf](ten_quick_tips_live_coding.pdf) or [Microsoft Word](ten_quick_tips_live_coding.docx) version.
+This manuscript is written in markdown, and converted to different outputs
+from that format.
 
-Questions? Comments? Submit an issue or pull request, annotate the PDF or use 'Track changes' in Word, and contact lex dot nederbragt at ibv dot uio dot no.
+Here are links to the different formats:
+
+* [markdown](ten_quick_tips_live_coding.md#ten-quick-tips-for-teaching-using-participatory-live-coding)
+* [pdf](ten_quick_tips_live_coding.pdf)
+* [Microsoft Word](ten_quick_tips_live_coding.docx)
+
+Questions? Comments? We appreciate input in the following ways:
+
+* by submitting an [issue](https://github.com/lexnederbragt/ten_quick_tips_live_coding/issues)
+* by submitting pull request
+* by annotating the PDF
+* through using 'Track changes' in Word
+* contacting us at lex.nederbragt@ibv.uio.no
 
 ## Generating the output formats
 
