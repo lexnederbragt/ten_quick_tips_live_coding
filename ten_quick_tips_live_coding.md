@@ -25,7 +25,7 @@ and invites learners to join them by writing and executing the same code.
 Learners watch as an instructor writes code live in real time,
 typically via one or more projector screens
 that show the same screen as the instructor sees.
-Instructors also read as they type out loud,
+Instructors also read out loud what they type,
 explaining the different elements and principles
 that are relevant for learners to understand the code.
 At the same time, each learner is invited to copy and execute the exact code
@@ -60,23 +60,22 @@ Participatory live coding for teaching programming should not be confused with l
 (for example, at a conference, with an audience passively observing),
 Live Streaming programming [@haaranenProgrammingPerformanceLivestreaming2017],
 or used as a form of performing art (e.g. while creating computer music [@collinsLiveCodingLaptop2003]).
-A video recording demonstrating the technique can be found here: <https://vimeo.com/139316669>.
+A video recording demonstrating the participatory live coding
+technique can be found here: <https://vimeo.com/139316669>.
 
 ## Who uses it
 
 Participatory live coding is the main teaching method in workshops organised by the global non-profit called The Carpentries (<https://carpentries.org>),
 the umbrella organisation for Software Carpentry, Data Carpentry and Library Carpentry
 [@wilsonSoftwareCarpentryLessons2016].
-The Carpentries teaches participatory live coding explicitly as a teaching technique when training new instructors [@erinalisonbeckerCarpentriesInstructortrainingCarpentries2019].
+The Carpentries teaches participatory live coding explicitly as a technique when training new instructors [@erinalisonbeckerCarpentriesInstructortrainingCarpentries2019].
 Increasingly,
 university courses involving the teaching of programming or related techniques employ the method (<https://lexnederbragt.com/bios1100>)[@johnstonGraduateStudentledParticipatory2019].
 
 There is a limited body of research on the effectiveness of live coding in programming education.
 Most studies focus on non-participatory live coding,
 demonstrating the programming process and contrasting this with the use of static code on slides
-(see @rajRoleLivecodingLearning2018 and references therein, as well as [@rajLivecodingVsStatic2020]).
-
-So far, the technique show that live coding is as good as if not better than using static code examples [@rajRoleLivecodingLearning2018; @rubinEffectivenessLivecodingTeach2013]
+(see @rajRoleLivecodingLearning2018 and references therein, as well as [@rajLivecodingVsStatic2020]). So far, the technique show that live coding is as good as if not better than using static code examples [@rajRoleLivecodingLearning2018; @rubinEffectivenessLivecodingTeach2013]
 and thus is a recommended approach for teaching programming [@brownTenQuickTips2018; @wrightWhyWhenHow2020].
 
 The ten quick tips described below are aimed at those interested in applying the technique in to their own teaching.
@@ -180,7 +179,7 @@ that all learners can see the relevant portions of the screen
 as they may want to copy exactly what you have typed
 or see what you are pointing to.
 Use a big font and maximize the window.
-Note with a large font, you may have fewer columns and rows than you're used to,
+Note that with a large font, you may have fewer columns and rows than you're used to,
 and you should design examples with this in mind (or at least test them).
 A black font on a white background works better than a light font on a dark background.
 When the bottom of the projector screen is at the same height or below the heads of the learners,
@@ -211,7 +210,7 @@ This allows you to build up diagrams,
 making them increasingly complex in parallel with the material you are teaching.
 Presenting complementary information using visual and verbal representations helps learning (so-called "dual coding" [@clarkDualCodingTheory1991]).
 Consider having learners draw or fill in diagrams themselves,
-from scratch or from fill-in-the-blank diagrams you have prepared in advance
+from scratch or from fill-in-the-blank diagrams you have prepared in advance.
 Diagramming helps learners understand the material,
 makes for a more lively workshop (you'll have to move between your computer and the whiteboard),
 and gathers the learners' attention to you as well.
@@ -232,7 +231,7 @@ but there is always a fair chance you'll run into something unexpected that you 
 Use printouts of the lesson material during teaching,
 or alternatively use a second device (tablet or laptop) on which you can view your notes.
 Consider the use of a timer for exercises: they help keep yourself honest when you tell learners they have 5 minutes for an exercise.
-Sometimes a question or a "what ifs?" comes up that you'd like to address but need some time to sort through. Collect these, for example on sticky notes
+Sometimes a question or a "what if?" comes up that you'd like to address but need some time to sort through. Collect these, for example on sticky notes
 or ask learners to add them to a shared online document that they all can edit.
 This way, you can think about these while learners are doing exercises and answer them afterwards. You then don't disrupt the flow of the lesson while still showing that you take the learner's questions seriously.
 
@@ -324,11 +323,11 @@ They have become part of the Carpentries instructor training materials (<https:/
 These also use example videos contrasting live coding
 done poorly (<https://youtu.be/bXxBeNkKmJE>)
 and live coding done well (<https://youtu.be/SkPmwe_WjeY>).
-[@wilsonTeachingTechTogether2019] has a section on live coding.
+Finally, [@wilsonTeachingTechTogether2019] has a section on live coding.
 
 ## Acknowledgements
 
-The authors wish to thanks Dr David Martin (University of Dundee, Scotland)
+The authors wish to thank Dr. David Martin (University of Dundee, Scotland)
 for suggesting the word 'participatory'
 to distinguish this form of live coding from other forms.
 
