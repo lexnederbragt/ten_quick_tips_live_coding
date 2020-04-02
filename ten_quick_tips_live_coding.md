@@ -79,7 +79,7 @@ demonstrating the programming process and contrasting this with the use of stati
 and thus is a recommended approach for teaching programming [@brownTenQuickTips2018; @wrightWhyWhenHow2020].
 
 The ten quick tips described below are aimed at those interested in applying the technique in to their own teaching.
-They are meant to complement the "Ten quick tips for delivering programming lessons" [@brownTenQuickTips2018].
+They are meant to complement the "Ten quick tips for teaching programming" [@brownTenQuickTips2018].
 
 ## Tip 1. Go slowly.
 
