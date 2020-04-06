@@ -273,12 +273,22 @@ To prevent this issue slowing down the whole class too much,
 use the occasion to take the small break you had planned to take a bit later,
 giving yourself or any helpers you may have time to fix the problem.
 
-## Tip 10. Turn learners into co-instructors.
+## Tip 10. Recruit helpers and co-instructors.
 
-During participatory live coding,
-learners are actively coding along with the instructor.
-You can engage them even more in different ways.
-For example, have learners call out the next line of code that
+If you can, have a good ratio between helpers/teaching assistants and learners.
+How many helpers you need and can have depends on the course or workshop,
+but around 1 helper for each 10 students is a good place to start.
+The main role for helpers is assuring learners do not fall behind due to,
+for example, technical issues.
+They should keep an eye out for sticky notes indicating a learner signaling
+for help.
+Having a co-instructor helps sharing the load, as teaching in general,
+and teaching with participatory live coding in particular, is tiring.
+While they are not teaching, a co-instructor can also keep an eye on the room
+and give the instructor some immediate feedback on the pace or other issues.
+
+Learners can be involved in the instruction also,
+by, for example, having them call out the next line of code that
 they think you as instructor should type next.
 It helps you to understand any misunderstandings learners might have,
 as well as having them practice applying the material taught.
@@ -289,7 +299,7 @@ in their own words helps solidify their knowledge.
 When you need to manage a diverse classroom
 where you have a range of experience and expertise amongst your learners,
 asking the more experienced learners to contribute
-may also help keep them motivated.
+as helpers may also help keep them motivated.
 
 # Conclusion
 
