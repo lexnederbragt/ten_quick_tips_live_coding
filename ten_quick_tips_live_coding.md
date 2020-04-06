@@ -1,7 +1,7 @@
 ---
 title: Ten Quick Tips For Teaching With Participatory Live Coding
 author: Lex Nederbragt^1^, Rayna Michelle Harris^2^, Alison Presmanes Hill^3^, Greg Wilson^3^
-date: March 2020, version 0.5
+date: April 2020, version 0.6
 bibliography: references.bib
 csl: plos-computational-biology.csl
 link-citations: true
