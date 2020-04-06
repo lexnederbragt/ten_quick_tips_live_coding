@@ -108,7 +108,7 @@ scroll back up so learners can see it again.
 If your current practice involves copying and pasting code
 from your lesson material, try transitioning to a technique where you,
 the instructor, type everything in the console or editor,
-while still allowing the students to copy and paste text
+while still allowing the learners to copy and paste text
 from the resources provided.
 In the end, not using copy-paste as instructor and learner will work better, as
 it avoids going too fast without explaining
@@ -138,7 +138,7 @@ It could be a benefit if both instructor
 and learners use the exact same software
 (terminal or code development environment),
 however this may incur some effort to get the software installed
-on the computers that students use.
+on the computers that learners use.
 Using a cloud-based solution may be an alternative to ensure all involved
 have the exact same setup.
 
@@ -247,7 +247,7 @@ So, don't fear making mistakes, and turn them into a teachable moment:
 novices are going to spend at least some their time making similar mistakes,
 but how to deal with the is left out of most textbooks.
 For example, read out the error message and explain how it told you what mistake you made.
-You can also involve the students in the problem-solving by asking them what they think went wrong and how it can be fixed.
+You can also involve the learners in the problem-solving by asking them what they think went wrong and how it can be fixed.
 
 ## Tip 9. Get real-time feedback.
 
