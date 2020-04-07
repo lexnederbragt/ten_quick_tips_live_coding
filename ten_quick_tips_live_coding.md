@@ -339,7 +339,8 @@ Finally, [@wilsonTeachingTechTogether2019] has a section on live coding.
 
 The authors wish to thank Dr. David Martin (University of Dundee, Scotland)
 for suggesting the word 'participatory'
-to distinguish this form of live coding from other forms.
+to distinguish this form of live coding from other forms,
+and for commenting on a draft version of the manuscript.
 
 
 # References
