@@ -1,7 +1,7 @@
 ---
 title: Ten Quick Tips For Teaching With Participatory Live Coding
 author: Lex Nederbragt^1^, Rayna Michelle Harris^2^, Alison Presmanes Hill^3^, Greg Wilson^3^
-date: March 2020, version 0.5
+date: April 2020, version 0.6
 bibliography: references.bib
 csl: plos-computational-biology.csl
 link-citations: true
@@ -108,7 +108,7 @@ scroll back up so learners can see it again.
 If your current practice involves copying and pasting code
 from your lesson material, try transitioning to a technique where you,
 the instructor, type everything in the console or editor,
-while still allowing the students to copy and paste text
+while still allowing the learners to copy and paste text
 from the resources provided.
 In the end, not using copy-paste as instructor and learner will work better, as
 it avoids going too fast without explaining
@@ -138,7 +138,7 @@ It could be a benefit if both instructor
 and learners use the exact same software
 (terminal or code development environment),
 however this may incur some effort to get the software installed
-on the computers that students use.
+on the computers that learners use.
 Using a cloud-based solution may be an alternative to ensure all involved
 have the exact same setup.
 
@@ -247,7 +247,7 @@ So, don't fear making mistakes, and turn them into a teachable moment:
 novices are going to spend at least some their time making similar mistakes,
 but how to deal with the is left out of most textbooks.
 For example, read out the error message and explain how it told you what mistake you made.
-You can also involve the students in the problem-solving by asking them what they think went wrong and how it can be fixed.
+You can also involve the learners in the problem-solving by asking them what they think went wrong and how it can be fixed.
 
 ## Tip 9. Get real-time feedback.
 
@@ -273,12 +273,22 @@ To prevent this issue slowing down the whole class too much,
 use the occasion to take the small break you had planned to take a bit later,
 giving yourself or any helpers you may have time to fix the problem.
 
-## Tip 10. Turn learners into co-instructors.
+## Tip 10. Recruit helpers and co-instructors.
 
-During participatory live coding,
-learners are actively coding along with the instructor.
-You can engage them even more in different ways.
-For example, have learners call out the next line of code that
+If you can, have a good ratio between helpers/teaching assistants and learners.
+How many helpers you need and can have depends on the course or workshop,
+but around 1 helper for each 10 students is a good place to start.
+The main role for helpers is assuring learners do not fall behind due to,
+for example, technical issues.
+They should keep an eye out for sticky notes indicating a learner signaling
+for help.
+Having a co-instructor helps sharing the load, as teaching in general,
+and teaching with participatory live coding in particular, is tiring.
+While they are not teaching, a co-instructor can also keep an eye on the room
+and give the instructor some immediate feedback on the pace or other issues.
+
+Learners can be involved in the instruction also,
+by, for example, having them call out the next line of code that
 they think you as instructor should type next.
 It helps you to understand any misunderstandings learners might have,
 as well as having them practice applying the material taught.
@@ -289,7 +299,7 @@ in their own words helps solidify their knowledge.
 When you need to manage a diverse classroom
 where you have a range of experience and expertise amongst your learners,
 asking the more experienced learners to contribute
-may also help keep them motivated.
+as helpers may also help keep them motivated.
 
 # Conclusion
 
