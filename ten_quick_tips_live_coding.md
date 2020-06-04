@@ -287,13 +287,19 @@ and some people are blue-yellow colorblind.
 As an alternative, colorblind learners could mark the stickers
 by writing something onto them, e.g. "OK" and "Problem".
 
-
 Also,
 the use of sticky notes allows the instructor to quickly see from the front of the room what state the class is in.
 Sometimes a blue sticky note involves a technical problem that takes a bit more time to solve.
 To prevent this issue slowing down the whole class too much,
 use the occasion to take the small break you had planned to take a bit later,
 giving yourself or any helpers you may have time to fix the problem.
+
+If learners are not putting up a sticky note when they’re stuck,
+asking them to do pair programming during the live coding may help:
+one learner does the typing while the other offers comments and suggestions,
+with frequent role switches.
+Learners may feel it easier to ask their partner, and if they’re both stuck,
+the frustrated conversation between them is more likely to be noticed by the instructor or a helper than one person’s puzzled silence.
 
 If you can, have a good ratio between helpers/teaching assistants and learners.
 How many helpers you need and can have depends on the course or workshop,
@@ -310,8 +316,18 @@ and give the instructor some immediate feedback on the pace or other issues.
 
 When you need to manage a diverse classroom
 where you have a range of experience and expertise amongst your learners,
-asking the more experienced learners to contribute
-as helpers may also help keep them motivated.
+you run the risk of more experienced learners becoming demotivated
+because they feel they are not learning anything new.
+You can recognize experienced learners by the questions they ask
+and the speed with which they complete the first few exercises.
+To keep them engaged, you could ask them to go and help someone
+who has a blue sticky note up.
+If they understand the problem, the other student gets feedback
+and help more quickly.
+If the more experienced learner _doesn’t_ understand the problem,
+it’s a fresh challenge from which they will learn.
+More experienced learners can also be asked to do the bulk of note-taking
+in the shared online document, if one is being used.
 
 ## Tip 10. Turn learners into co-instructors.
 
