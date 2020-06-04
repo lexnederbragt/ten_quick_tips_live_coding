@@ -56,13 +56,7 @@ instructors will often make unplanned mistakes.
 Novice learners are likely to make many such mistakes themselves,
 and diagnosing and solving mistakes is an integral aspect of learning programming.
 
-The participatory, 'code-along' aspect
-is important to help novices become active practitioners,
-rather than passive observers of the programming process.
-It may be less important for teaching experienced learners a particular
-aspect of a computational tool with which they are already familiar.
-For those learners, observing a live-coding demonstration
-without actively coding along, may suffice.
+The participatory aspect engages learners, which helps them become active practitioners rather than passive observers of the programming process. Participatory live coding is most beneficial for novices who are unfamiliar with the tools. More experienced learners may gain enough by listening passively or engaging with the material and classroom differently.
 
 Participatory live coding for teaching programming should not be confused with live coding used to demonstrate software
 (for example, at a conference, with an audience passively observing),
@@ -115,15 +109,17 @@ or who may have hearing, vision, or mobility impairments.
 If the output of your command or code makes what you just typed disappear from view,
 scroll back up so learners can see it again.
 
-Do not ask your learners to copy and past code or commands
-from your lesson material,
-this has a danger of going too fast, without you explaining
+Asking your learners to copy and past code or commands
+from your lesson material
+has a danger of going too fast, without you explaining
 the thought process behind the code.
 If your current practice involves copying and pasting,
 try transitioning to a technique where you,
 the instructor, type everything in the console or editor,
-while still allowing the learners to copy and paste text
-from the resources provided.
+building the scripts one command at a time with the learners.
+Learners can copy and paste commands from the resources provided
+if they need to catch up
+or are practicing asynchronously with an online tutorial.
 
 ## Tip 2. Mirror your learner's environment.
 
