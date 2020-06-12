@@ -13,10 +13,6 @@ link-citations: true
 
 **Corresponding author** E-mail: lex.nederbragt@ibv.uio.no
 
-![Summary of the ten quick tips for teaching with participatory live coding](tipsforteaching-01.png)
-
-[FIXME: update titles in figure, and change to 'illustrations' in tip 6]
-
 # Introduction
 
 ## What is participatory live coding?
