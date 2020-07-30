@@ -9,7 +9,7 @@ link-citations: true
 
 ^1^Department of Biosciences, University of Oslo, Oslo, Norway  
 ^2^Department of Neurobiology, Physiology and Behavior, University of California, Davis,  United States of America  
-^3^Rstudio, PBC, Boston, United States of America  
+^3^RStudio, PBC, Boston, United States of America  
 
 **Corresponding author** E-mail: lex.nederbragt@ibv.uio.no
 
