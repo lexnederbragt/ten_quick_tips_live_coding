@@ -1,7 +1,7 @@
 Ten Quick Tips For Teaching With Participatory Live Coding
 ----------------------------------------------
 
-Now published in PLOS Computational Biology Education collection, [https://doi.org/10.1371/journal.pcbi.1008090](https://collections.plos.org/compbiol-education).
+Now published in PLOS Computational Biology Education collection, [https://doi.org/10.1371/journal.pcbi.1008090](https://doi.org/10.1371/journal.pcbi.1008090).
 
 This manuscript is written in markdown, and converted to different outputs
 from that format.
