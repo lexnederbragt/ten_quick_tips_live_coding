@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Please cite this paper as shown."
+authors:
+- family-names: "Nederbragt"
+  given-names: "Lex"
+  orcid: ""
+- family-names: "Harris"
+  given-names: "Rayna Michelle"
+  orcid: ""
+- family-names: "Hill"
+  given-names: "Alison Presmanes"
+  orcid: ""
+- family-names: "Wilson"
+  given-names: "Greg"
+  orcid: "https://orcid.org/0000-0001-8659-8979"
+title: "Ten quick tips for teaching with participatory live coding"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Nederbragt"
+    given-names: "Lex"
+    orcid: ""
+  - family-names: "Harris"
+    given-names: "Rayna Michelle"
+    orcid: ""
+  - family-names: "Hill"
+    given-names: "Alison Presmanes"
+    orcid: ""
+  - family-names: "Wilson"
+    given-names: "Greg"
+    orcid: "https://orcid.org/0000-0001-8659-8979"
+  title: "Ten quick tips for teaching with participatory live coding"
+  doi: "10.1371/journal.pcbi.1008090"
+  journal: "PLOS Computational Biology"
+  volume: 16
+  issue: 9
+  year: 2020
+  month: 9
